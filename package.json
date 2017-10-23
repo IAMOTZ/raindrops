@@ -2,7 +2,7 @@
   "name": "raindrops",
   "version": "1.0.0",
   "description": "A program that converts a number to a string, the contents of which depends on the number’s prime factors.",
-  "main": "index.js",
+  "main": "codes/raindrops.js",
   "directories": {
     "test": "test"
   },
