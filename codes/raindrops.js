@@ -4,6 +4,9 @@ let raindropSpeak = (input) => {
     if(typeof(input) != 'number') {
         return undefined;
     }
+    if(!Number.isInteger(input)) {
+        return undefined;
+    }
     if(input <= 0) {
         return undefined;
     }

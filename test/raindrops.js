@@ -16,6 +16,10 @@ describe('RaindropSpeak', () => {
             expect(raindropSpeak(0)).to.equal(undefined);
         })
 
+        it('return undefined for decimal numbers', () => {
+            expect(raindropSpeak(17.56)).to.equal(undefined);
+        })
+
         it('return undefined for string inputs', () => {
             expect(raindropSpeak('tunmise')).to.equal(undefined);
             expect(raindropSpeak('1234')).to.equal(undefined);
