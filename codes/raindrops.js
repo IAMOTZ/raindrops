@@ -51,6 +51,6 @@ let primeFactorsOf = (number) => {
     return result;
 }
 
-console.log(raindropSpeak(1775));
+console.log(raindropSpeak(28));
 
 module.exports = raindropSpeak;
