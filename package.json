@@ -1,0 +1,23 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "description": "A program that converts a number to a string, the contents of which depends on the number’s prime factors.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAMOTZ/raindrops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAMOTZ/raindrops/issues"
+  },
+  "homepage": "https://github.com/IAMOTZ/raindrops#readme"
+}
