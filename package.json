@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/IAMOTZ/raindrops/issues"
   },
-  "homepage": "https://github.com/IAMOTZ/raindrops#readme"
+  "homepage": "https://github.com/IAMOTZ/raindrops#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
 }
