@@ -8,10 +8,6 @@ const raindropSpeak = require('../codes/raindrops');
 describe('RaindropSpeak', () => {
 
     describe('Handle invalid inputs', () => {
-        it('return undefined for negative numbers', () => {
-            expect(raindropSpeak(-20)).to.equal(undefined);
-        })
-
         it('return undefined for 0', () => {
             expect(raindropSpeak(0)).to.equal(undefined);
         })
