@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
-    "start": "node codes/raindrops"
+    "test": "mocha raindrops.test",
+    "start": "node raindrops"
   },
   "repository": {
     "type": "git",
